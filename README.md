@@ -48,9 +48,7 @@ This gets me an [input file](2707c-aurora.yaml) that looks like this:
 
 Running `gms.py` on this file in your Camera2 directory will output a [movement script](2707c-aurora.json) that you can put in an appropriate file in your `MovementScripts` directory. You'll have to add that movement script to whichever camera you are using [per the wiki](https://github.com/kinsi55/CS_BeatSaber_Camera2/wiki/Movement-Scripts).
 
-This leads to a camera path like this:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HtkSl8XVH_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+This leads to a camera path like [this](https://www.youtube.com/watch?v=HtkSl8XVH_0).
 
 ## To do
 
