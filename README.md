@@ -2,6 +2,16 @@
 
 Generate movement scripts for Camera2 in Beat Saber using a simplified format and existing cameras
 
+## Scripts so far
+
+* Slow weave --- weaves between five camera angles, 10s per angle, 10s transitions ([example](https://www.youtube.com/watch?v=WCGhZ0fDx5w))
+* [Tanger - Aurora](https://beatsaver.com/maps/2707c) --- could use some work still ([example](https://www.youtube.com/watch?v=HtkSl8XVH_0))
+
+## Cameras included
+
+* \_modleft/\_modright/\_modcenter --- three cameras useful for modmaps, as they're further away, shallower, and wider FOV for pretty maps
+* \_normalleft/\_normalright --- two cameras useful for more standard maps, closer in to your avatar.
+
 ## Input format
 
 The input format is just a YAML file that acts as a simplified version of the Camera2 Movement Scripts, in that it allows you to specify frames where a camera should hold for a certain amount of time and then transition to the next frame. Each frame consists of a `start` and an `end`, as well as a `base`, which is the existing camera in the `Cameras` directory containing the required position.
