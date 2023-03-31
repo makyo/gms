@@ -47,7 +47,7 @@ def build_script(frames: list, sync_to_song: bool = True) -> str:
 
 
 if __name__ == '__main__':
-    cameras = get_cameras()
+    cameras = get_cameras(sys.argv[2] if len(sys.argv) > 2 else 'Cameras')
     movements = get_movements(sys.argv[1])
     frames = build_frames(cameras, movements)
     print(build_script(frames))

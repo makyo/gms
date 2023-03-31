@@ -1,0 +1,16 @@
+- start: 0
+  end: 15
+  base: rightfront
+  transition: Eased
+- start: 20
+  end: 35
+  base: centerfront
+  transition: Eased
+- start: 60
+  end: 75
+  base: leftfront
+  transition: Eased
+- start: 80
+  end: 95
+  base: centerback
+  transition: Eased
